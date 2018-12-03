@@ -20,7 +20,7 @@ YEARLY_DISC = 0.2
 start_time = datetime.datetime.now()
 print('Starting clock: {}'.format(start_time))
 
-td = pd.read_excel('Tidy Data - F - 18.12.03.xlsx',
+td = pd.read_excel('Tidy Data - F - 18.12.03.xlsx', 
                    sheet_name='Tidy Data',
                    converters={'T': eval})
 # Color coding
